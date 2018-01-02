@@ -5,4 +5,4 @@ CS X: facade pattern
 + part II : Read and GET data in JSON file
 + part III : Create and POST data in JSON file
 
-Add-on Firefox: CORS Everywhere
+Add-on Firefox: CORS Everywhere <to cross origin website>
