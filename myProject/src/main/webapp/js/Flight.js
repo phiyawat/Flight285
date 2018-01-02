@@ -143,7 +143,7 @@ flightModule.config(['$qProvider', function($qProvider){
 }]);
 
 flightModule.controller('searchCtrl', function ($scope, $window, $http) {
-    $http.get('http://varp.derive.co.th/FlightManagement/getFlights').then(function (response) {
+    $http.get('https://phiyawat-comsci.herokuapp.com/list').then(function (response) {
         $scope.listAirports = response.data
     })
 
